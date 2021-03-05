@@ -11,7 +11,7 @@ METRICS = [LETTERS,VOWELS,NUMBERS]
 
 time.sleep(1)
 inputOne = input("What is the first string that you want to enter?")
-inputTwo = input("What is the secod=nd string that you want to enter?")
+inputTwo = input("What is the second string that you want to enter?")
 
 junct = ''
 
