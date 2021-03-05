@@ -23,14 +23,18 @@ print(junct)
 vowels = 0
 letters = 0
 numbers = 0
+consonants = 0
 
 for i in junct:
   if i in LETTERS:
     letters += 1
     if i in VOWELS:
       vowels += 1
+     else:
+      consonants += 1
    if i in NUMBERS:
     numbers += 1
     
 print("of the characters that the two share,", vowels, "of them are vowels")
+print("of the characters that the two share,", consonants, "of them are consonants")
 print("of the characters that the two share,", numbers, "of them are numbers")
